@@ -56,6 +56,36 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'splashGif',
           path: '/splashGif',
           builder: (context, params) => SplashGifWidget(),
+        ),
+        FFRoute(
+          name: 'Home12Activity',
+          path: '/home12Activity',
+          builder: (context, params) => Home12ActivityWidget(),
+        ),
+        FFRoute(
+          name: 'splashLottieCopy',
+          path: '/splashLottieCopy',
+          builder: (context, params) => SplashLottieCopyWidget(),
+        ),
+        FFRoute(
+          name: 'Profile17OtherUser',
+          path: '/profile17OtherUser',
+          builder: (context, params) => Profile17OtherUserWidget(),
+        ),
+        FFRoute(
+          name: 'Profile08',
+          path: '/profile08',
+          builder: (context, params) => Profile08Widget(),
+        ),
+        FFRoute(
+          name: 'nickname',
+          path: '/nickname',
+          builder: (context, params) => NicknameWidget(),
+        ),
+        FFRoute(
+          name: 'welcome',
+          path: '/welcome',
+          builder: (context, params) => WelcomeWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
