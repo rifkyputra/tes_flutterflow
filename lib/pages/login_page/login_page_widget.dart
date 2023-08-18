@@ -97,7 +97,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
               ),
               Text(
                 FFLocalizations.of(context).getText(
-                  't99u4try' /* Hello World */,
+                  'ny1lukey' /* Hello World */,
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium,
               ),
@@ -110,7 +110,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
               ),
               Text(
                 FFLocalizations.of(context).getText(
-                  'lsfjqd3n' /* Hello World */,
+                  'tho6d57g' /* Hello World */,
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium,
               ),

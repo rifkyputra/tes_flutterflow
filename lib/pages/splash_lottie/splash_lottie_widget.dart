@@ -226,6 +226,17 @@ class _SplashLottieWidgetState extends State<SplashLottieWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
+                Switch.adaptive(
+                  value: _model.switchValue ??= true,
+                  onChanged: (newValue) async {
+                    setState(() => _model.switchValue = newValue!);
+                  },
+                  activeColor: FlutterFlowTheme.of(context).primary,
+                  activeTrackColor: FlutterFlowTheme.of(context).accent1,
+                  inactiveTrackColor: FlutterFlowTheme.of(context).alternate,
+                  inactiveThumbColor:
+                      FlutterFlowTheme.of(context).secondaryText,
+                ),
               ],
             ),
           ),

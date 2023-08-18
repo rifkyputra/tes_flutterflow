@@ -142,11 +142,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ko': '카본 트립에 오신것을 환영합니다',
       'en': 'Welcome to Carbon Trip',
     },
-    't99u4try': {
+    'ny1lukey': {
       'ko': 'Hello World',
       'en': '',
     },
-    'lsfjqd3n': {
+    'tho6d57g': {
       'ko': 'Hello World',
       'en': '',
     },
